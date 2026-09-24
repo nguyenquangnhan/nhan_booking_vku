@@ -68,26 +68,32 @@ Việc tra cứu và mượn phòng tự học, phòng thực hành máy tính (
 
 ### 5.1. Yêu cầu môi trường
 * Đã cài đặt [Node.js](https://nodejs.org/) (phiên bản 18 hoặc 20 LTS trở lên).
+* Đã cài đặt [Git](https://git-scm.com/).
 * Điện thoại có cài ứng dụng **Expo Go** (tải miễn phí trên App Store / Google Play).
 
 ### 5.2. Các bước khởi chạy
 
-1. **Clone hoặc mở thư mục dự án**:
+1. **Clone dự án từ GitHub**:
    ```bash
-   cd d:/HocTap/N4/DA_NEN_TANG/ReactNative
+   git clone https://github.com/nguyenquangnhan/nhan_booking_vku.git
    ```
 
-2. **Cài đặt các gói phụ thuộc (Dependencies)**:
+2. **Di chuyển vào thư mục dự án**:
+   ```bash
+   cd nhan_booking_vku
+   ```
+
+3. **Cài đặt các gói phụ thuộc (Dependencies)**:
    ```bash
    npm install
    ```
 
-3. **Khởi chạy máy chủ phát triển (Expo Dev Server)**:
+4. **Khởi chạy máy chủ phát triển (Expo Dev Server)**:
    ```bash
    npx expo start
    ```
 
-4. **Trải nghiệm ứng dụng**:
+5. **Trải nghiệm ứng dụng**:
    * **Trên điện thoại Android / iOS**: Mở ứng dụng **Expo Go** và quét mã QR hiển thị trên Terminal.
    * **Trên trình duyệt Web**: Nhấn phím `w` trong cửa sổ dòng lệnh.
    * **Trên máy ảo Android**: Nhấn phím `a`.
