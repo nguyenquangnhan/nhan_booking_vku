@@ -3,17 +3,27 @@
 
 ---
 
+## 📱 Tải & Cài đặt Ứng dụng (APK Release)
+
+> 🚀 **Dành cho Giảng viên & Người chấm bài:** Không cần cài đặt Node.js hay chạy lệnh, có thể tải và cài đặt trực tiếp file APK độc lập:
+* 📦 **File APK trong Repository:** [VKUBooking-v1.0.0.apk](./VKUBooking-v1.0.0.apk) *(~88.3 MB)*
+* ☁️ **Link tải dự phòng (Google Drive):** [Tải file APK từ Google Drive](https://drive.google.com/drive/folders/1MnlFD2C8D_qKxFkrW9xJUfptrW-3ycYu?usp=drive_link)
+* 💡 **Phiên bản:** `1.0.0` (Release Standalone, tối ưu Hermes Bytecode, hỗ trợ đầy đủ thiết bị Android 8.0+)
+
+---
+
 ## 📖 Mục lục
-1. [Giới thiệu dự án](#1-giới-thiệu-dự-án)
-2. [Tính năng nổi bật](#2-tính-năng-nổi-bật)
-3. [Công nghệ sử dụng](#3-công-nghệ-sử-dụng)
-4. [Tài khoản đăng nhập thử nghiệm](#4-tài-khoản-đăng-nhập-thử-nghiệm)
-5. [Hướng dẫn cài đặt & Khởi chạy](#5-hướng-dẫn-cài-đặt--khởi-chạy)
-6. [Hướng dẫn sử dụng chi tiết](#6-hướng-dẫn-sử-dụng-chi-tiết)
+1. [Tải ứng dụng (APK Release)](#-tải--cài-đặt-ứng-dụng-apk-release)
+2. [Giới thiệu dự án](#1-giới-thiệu-dự-án)
+3. [Tính năng nổi bật](#2-tính-năng-nổi-bật)
+4. [Công nghệ sử dụng](#3-công-nghệ-sử-dụng)
+5. [Tài khoản đăng nhập thử nghiệm](#4-tài-khoản-đăng-nhập-thử-nghiệm)
+6. [Hướng dẫn cài đặt & Khởi chạy](#5-hướng-dẫn-cài-đặt--khởi-chạy)
+7. [Hướng dẫn sử dụng chi tiết](#6-hướng-dẫn-sử-dụng-chi-tiết)
    - [Dành cho Sinh viên](#61-dành-cho-sinh-viên-user-portal)
    - [Dành cho Cán bộ Quản trị](#62-dành-cho-cán-bộ-quản-trị-admin-portal)
-7. [Cấu trúc mã nguồn](#7-cấu-trúc-mã-nguồn)
-8. [Cơ chế Chống trùng lịch & Đồng bộ Dữ liệu](#8-cơ-chế-chống-trùng-lịch--đồng-bộ-dữ-liệu)
+8. [Cấu trúc mã nguồn](#7-cấu-trúc-mã-nguồn)
+9. [Cơ chế Chống trùng lịch & Đồng bộ Dữ liệu](#8-cơ-chế-chống-trùng-lịch--đồng-bộ-dữ-liệu)
 
 ---
 
@@ -66,12 +76,27 @@ Việc tra cứu và mượn phòng tự học, phòng thực hành máy tính (
 
 ## 5. Hướng dẫn cài đặt & Khởi chạy
 
-### 5.1. Yêu cầu môi trường
+### 5.1. Cách 1: Cài đặt trực tiếp qua file APK (Khuyên dùng cho Giảng viên)
+> Không yêu cầu cài đặt môi trường lập trình (Node.js, Git).
+
+1. **Tải file APK:**
+   * Tải trực tiếp file [VKUBooking-v1.0.0.apk](./VKUBooking-v1.0.0.apk) ngay trong repository, hoặc tải qua [Google Drive link](https://drive.google.com/drive/folders/1MnlFD2C8D_qKxFkrW9xJUfptrW-3ycYu?usp=drive_link).
+2. **Cài đặt trên điện thoại Android thật:**
+   * Sao chép file `.apk` vào điện thoại (hoặc tải trực tiếp trên trình duyệt điện thoại).
+   * Mở file `.apk` -> Chọn **Cài đặt** *(nếu hệ thống yêu cầu, cho phép "Cài đặt ứng dụng từ nguồn không xác định")*.
+   * Mở ứng dụng **VKU Booking** từ màn hình chính và trải nghiệm.
+3. **Cài đặt trên máy ảo Android (Android Studio / BlueStacks / Nox):**
+   * Khởi động máy ảo Android.
+   * Kéo thả file `VKUBooking-v1.0.0.apk` trực tiếp vào cửa sổ máy ảo để tự động cài đặt.
+
+### 5.2. Cách 2: Khởi chạy từ mã nguồn (Expo Dev Server)
+
+#### Yêu cầu môi trường
 * Đã cài đặt [Node.js](https://nodejs.org/) (phiên bản 18 hoặc 20 LTS trở lên).
 * Đã cài đặt [Git](https://git-scm.com/).
 * Điện thoại có cài ứng dụng **Expo Go** (tải miễn phí trên App Store / Google Play).
 
-### 5.2. Các bước khởi chạy
+#### Các bước khởi chạy
 
 1. **Clone dự án từ GitHub**:
    ```bash
